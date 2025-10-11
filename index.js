@@ -10,12 +10,11 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImagesource2);
 
 
 if(randomNumber > randomNumber2){
-    document.querySelector("h2").innerHTML = "DEV-ANKIT WIN";
+    document.querySelector("h1").innerHTML = "DEV-ANKIT WIN";
 }
 else if (randomNumber2 > randomNumber){
-    document.querySelector("h2").innerHTML = "YOU WIN";
+    document.querySelector("h1").innerHTML = "YOU WIN";
 }
 else{
-    document.querySelector("h2").innerHTML = "Draw";
-
+    document.querySelector("h1").innerHTML = "Draw";
 }
